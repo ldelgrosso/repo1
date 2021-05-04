@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="keywords" content="Congelados, Envios, Domicilio, comida congelada, empanadas congeladas, precio mayorista" >
+    <meta name="description" content="Formulario de contacto para satisfacer todas tus dudas">
+    <title>DDP - Contacto</title>
+</head>
+<body>
+    <div id="grilla">
+        <header id="header">
+            <h1>Directo de Produccion</h1>
+        </header>
+        
+    <nav id="menu">
+            <div> <a class="linkMenu" href="index.html"> <h2>Inicio</h2> </a>  </div>
+            <div> <a class="linkMenu" href="quienes_somos.html"> <h2>Quienes somos</h2> </a> </div>
+            <div> <a class="linkMenu" href="marcas.html"> <h2>Marcas </h2> </a></div>
+            <div> <a class="linkMenu" href="productos.html"> <h2>Productos </h2> </a> </div>
+            <div> <a class="linkMenu" href="envios.html"> <h2>Envios</h2> </a>  </div>
+            <div> <a class="linkMenu" href="contacto.html"><h2>Contacto</h2> </a> </div>
+    </nav>   
+
+    <section id="seccion">
+        <h2 class="tituloSecundario">Contacto</h2>
+            
+        <form id="formContacto" action="#" method="GET">
+                <label class="labelContacto" for="nombre">Nombre</label>
+                <input type="text" class="imputContacto" id="nombre" placeholder="Nombre">
+                
+                <label class="labelContacto" for="apellido">Apellido</label>
+                <input type="text" class="imputContacto" id="apellido" placeholder="Apellido">
+                
+                <label class="labelContacto" for="tel">Telefono</label>
+                <input type="tel" class="imputContacto" id="tel" placeholder="Celular" required>
+                
+                <label class="labelContacto" for="email">Email</label>
+                <input type="email" class="imputContacto" id="email" placeholder="mail@mail.com">
+                
+                <label class="labelContacto" for="medioConocimiento">Como Nos conocio?</label>
+                <select name="medioConocimiento" class="imputContacto">
+                        <option value="1">Redes Sociales</option>
+                        <option value="2">Boca a boca</option>
+                        <option value="3">Otros</option>
+                </select>
+                
+                <label class="labelContacto" for="consulta">Consulta</label>
+                <textarea name="consulta" class="textAreaContacto" placeholder="Escriba Aqui" cols="20%" rows="4"></textarea>
+                
+                <label class="labelContacto" for="novedades">Suscribirse al newsletter?</label>
+                <input type="checkbox" class="checkContacto" id="novedades"> 
+                
+                <input type="submit" class="botonContacto" value="Enviar">
+                <input type="reset" class="botonContacto" value="Resetealo">
+        </form>
+    </section>
+
+    <footer id="pie">
+        <a class="linkPie" href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <a class="linkPie" href="https://twitter.com/" target="_blank">Twitter</a>
+        <a class="linkPie" href="https://www.Instagram.com/" target="_blank">Instagram</a>
+    </footer>
+
+</div>
+</body>
+</html>

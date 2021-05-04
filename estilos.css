@@ -1,0 +1,94 @@
+#grilla{
+    display: grid;
+    font-family:Raleway;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 10vh 10vh 50vh 5vh;
+    grid-template-areas:
+                        "header header"
+                        "menu menu"
+                        "seccion seccion"
+                        "pie pie"
+}
+
+#menu{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #d1a879;
+    color:#c5e7f7;
+    grid-area: menu;
+}
+
+#header{
+    text-shadow: 2px 2px 1px #b9b9b9;
+    display: flex;
+    background-image: linear-gradient(to right, white , #c5e7f7);
+    color:#c5e7f7;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    grid-area: header;
+}
+
+#seccion{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(218, 218, 218);
+    grid-area: seccion;
+}
+
+#formContacto{
+    display:grid;
+    background-color:rgb(218, 218, 218);
+    justify-items: start;
+    grid-template-columns: 10% 20%;
+}
+
+
+.imputContacto {
+    width:50%;
+    transition: all 1s; 
+}
+
+.imputContacto:focus {
+    width: 100%;
+    font-size: 15px;
+}
+
+.textAreaContacto {
+    width:50%;
+    transition: all 1s; 
+}
+
+.textAreaContacto:focus {
+    width: 100%;
+    font-size: 15px;
+}
+
+
+#pie{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#c5e7f7;
+    color:rgb(218, 218, 218);
+    grid-area:pie;
+}
+
+img{
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.linkMenu {
+    color:#c5e7f7;
+}
+
+.linkPie {
+    color:#d1a879;
+}
+
+.tituloSecundario {
+    grid-area: tituloSecundario;
+}
